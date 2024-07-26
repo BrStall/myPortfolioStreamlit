@@ -19,8 +19,8 @@ def home():
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
 
     # PDF CV file
-    with open("assets/CV Bruna Stall - Data Analyst.pdf ", "rb") as pdf_file:
-       pdf_bytes = pdf_file.read()
+    ## with open("assets/CV Bruna Stall - Data Analyst.pdf ", "rb") as pdf_file:
+    ##   pdf_bytes = pdf_file.read()
 
     
     # Top title
